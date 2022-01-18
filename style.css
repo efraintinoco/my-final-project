@@ -1,0 +1,263 @@
+#mainheader {   
+     background-color:black;
+    max-width: 100%;
+    text-align: center; position: fixed; width: 100%;  top: 0; height: 60px;
+}
+
+nav {
+    height: 60px;
+    max-width: 100%;
+    text-align: left;
+    margin: 0 auto 20px;   
+    
+}
+
+nav>ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0; max-width: 100%;
+    text-align: center;  
+}
+nav li {
+    display: inline-block;
+     max-width: 100%; 
+}
+nav  a {
+    display: block;
+    color: white;
+    padding: 16px;
+    max-width: 100%;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center;   
+}
+ 
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+  }
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    height: 600px;
+    padding: 40px 60px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.section1 {
+    height: 75vh;
+    background-image: url(images/self1.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    background-attachment: fixed;
+
+
+}
+
+.section2 {
+
+    background-color: rgba(0, 0, 0, 0.432);
+    height: auto;
+    padding-bottom: 150px;
+     
+   
+
+}
+
+.section3 {
+    height: 75vh;
+    background-image: url(images/cowboys.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-position: center center;
+    background-attachment: fixed;
+    
+     
+}
+
+.section4 {
+    background-color: rgba(7, 53, 151, 0.91) ;
+    height: auto; padding-bottom: 200px;
+      
+}
+.section5 {
+    height: 75vh;
+    background-image: url(images/ofrenda1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-position: center center;
+    
+    background-attachment: fixed;
+
+}
+.box p {
+    font-size: 20px;
+    margin-top: 100px;
+    
+}
+.section6 {
+
+    background-color: rgba(8, 155, 192, 0.753);
+    height: auto;
+    
+     
+   
+
+}
+
+
+
+.section7 {
+    height: 75vh;
+    background-image: url(images/ofrenda2.jpg);
+    width: 100%;
+    background-size: cover;
+    
+    
+    background-repeat: no-repeat;
+    
+    background-position: center center;
+    
+    background-attachment: fixed;
+
+}
+
+.section8 {
+    background-color:  rgba(5, 170, 129, 0.884)  ;
+    height: auto; padding-bottom: 200px;
+      
+}
+
+
+.box h1 {
+    font-size:  50px;
+    text-shadow: 0px 0 px 5px #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    margin-top: 40px;
+    
+    
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {display: block; max-width: 100%;  }
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  img {
+    max-width: 100%
+  }
+  
+  .image {
+    flex-basis: 40%
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+ .ul
+ {
+     display: table;
+     margin: 0 auto;
+     font-size: large;
+ } 
+ 
+ .section9 {
+    height: 75vh;
+    background-image: url(images/pattern.png);
+    width: 100%;
+    background-size: contain;
+     
+    background-position: center center;
+    
+    background-attachment: fixed;
+
+
+}
+
+.section10 {
+
+    background-color: rgba(207, 37, 37, 0.959);
+    height: auto;
+     
+     
+   
+
+}
+
+.section11 {
+    height: 75vh;
+    background-image: url(images/pattern.png);
+    width: 100%;
+    background-size: contain;
+     
+    background-position: center center;
+    
+    background-attachment: fixed;
+
+
+}
+
+.section12  {
+
+    background-color: rgba(117, 1, 133, 0.671);
+    height: auto;
+    padding-bottom: 150px;
+     
+   
+
+}
+
+.thumbnail {
+    max-width: 100%;
+    border: 2px solid hsl(244, 84%, 33%);
+    box-shadow: none;
+  }
+
+.scroll1 {
+    color:black; font-weight: bold; font-size: x-large; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.scroll2 {
+    color: white; font-weight: bold; font-size: x-large; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.scroll3 {
+    color:black; background-color: white; font-weight: bold; font-size: x-large; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.video 
+        {
+            float: right;margin-left: 5px; border: 2px solid rgb(88, 16, 105);
+}
